@@ -1,0 +1,51 @@
+
+[
+    {
+        "id":1,
+        "name": "Canada",
+        "citizens": 50000000,
+        "size": 3
+    },
+    {
+        "id":2,
+        "name": "Brasil",
+        "citizens": 65000000,
+        "size": 6
+    },
+    {
+        "id":3,
+        "name": "Serbia",
+        "citizens": 7000000,
+        "size": 112
+    },
+    {
+        "id":4,
+        "name": "India",
+        "citizens": 1400000000,
+        "size": 2
+    },
+    {
+        "id":5,
+        "name": "Croatia",
+        "citizens": 5000000,
+        "size": 132
+    },
+    {
+        "id":6,
+        "name": "China",
+        "citizens": 1500000000,
+        "size": 1
+    },
+    {
+        "id":7,
+        "name": "Maroko",
+        "citizens": 15000000,
+        "size": 56
+    },
+    {
+        "id":8,
+        "name": "Uganda",
+        "citizens": 63000000,
+        "size": 41
+    }
+]
