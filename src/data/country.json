@@ -4,48 +4,80 @@
         "id":1,
         "name": "Canada",
         "citizens": 50000000,
-        "size": 3
+        "size": 3,
+        "information": {
+            "capitalCity": "Otava",
+            "zipCode": 134 
+        }
     },
     {
         "id":2,
         "name": "Brasil",
         "citizens": 65000000,
-        "size": 6
+        "size": 6,
+        "information": {
+            "capitalCity": "Brasilia",
+            "zipCode": 556 
+        }
     },
     {
         "id":3,
         "name": "Serbia",
         "citizens": 7000000,
-        "size": 112
+        "size": 112,
+        "information": {
+            "capitalCity": "Belgrade",
+            "zipCode": 138 
+        }
     },
     {
         "id":4,
         "name": "India",
         "citizens": 1400000000,
-        "size": 2
+        "size": 2,
+        "information": {
+            "capitalCity": "Delhi",
+            "zipCode": 13455
+        }
     },
     {
         "id":5,
         "name": "Croatia",
         "citizens": 5000000,
-        "size": 132
+        "size": 132,
+        "information": {
+            "capitalCity": "Croatia",
+            "zipCode": 356 
+        }
     },
     {
         "id":6,
         "name": "China",
         "citizens": 1500000000,
-        "size": 1
+        "size": 1,
+        "information": {
+            "capitalCity": "Beging",
+            "zipCode": 134656
+        }
     },
     {
         "id":7,
         "name": "Maroko",
         "citizens": 15000000,
-        "size": 56
+        "size": 56,
+        "information": {
+            "capitalCity": "Rabat",
+            "zipCode": 889
+        }
     },
     {
         "id":8,
         "name": "Uganda",
         "citizens": 63000000,
-        "size": 41
+        "size": 41,
+        "information": {
+            "capitalCity": "Kampala",
+            "zipCode": 787
+        }
     }
-]
+] 

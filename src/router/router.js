@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import CountryView from "../views/CountryView.vue";
+import InformationView from "../views/InformationView.vue";
 
 
 const router = createRouter({
@@ -25,7 +26,13 @@ const router = createRouter({
         {
             path: "/country/:id",
             component: CountryView,
-            name: "Country"
+            name: "Country",
+            children: [
+                {
+                    path: "information",
+                    component: InformationView,
+                }
+            ]
         }
      ]
 });

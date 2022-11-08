@@ -1,16 +1,25 @@
 <script setup>
-  import { useRoute } from 'vue-router';
-  import country from "../data/country.json";
-  
-  const route = useRoute()
+import { useRoute, useRouter, RouterView } from "vue-router";
+import country from "../data/country.json";
 
-  const count = country.find(c => c.id === parseInt(route.params.id))
+const route = useRoute();
+const router = useRouter();
 
+const countId = parseInt(route.params.id)
+
+const count = country.find((c) => c.id === countId);
 </script>
 
 
 <template>
-  <div>Country</div>
+  <div>
+    <h1>Country</h1>
+    <p>{{ count.name }}</p>
+    <p>{{ count.citizens }}</p>
+    <p>{{ count.size }}</p>
+    <button @click="router.push(`/country/${countId}/information`)">Click for information</button>
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>
